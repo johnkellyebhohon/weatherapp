@@ -9,20 +9,45 @@
 </head>
 <body>
    <div class="container my-5">
-       <h1 class="text-center">Weather In</h1>
+       <h1 class="text-center title">Weather In</h1>
        <form action="" class="location">
            <input type="text" 
            class="form-control text-muted form-rounded p-4 shadow-sm" 
            placeholder="City?"
            auto-complete="off">
        </form>
-       <div class="card rounded my-3 shadow-lg back-card">
+       <div class="card rounded my-3 shadow-lg main-card">
            <div class="card-top text-center">
                <p>New York City</p>
                <span>...</span>
            </div>
-           <img src="images/plusch.jpg" alt="">
+           <img src="images/plusch.jpg" alt="image" class="card-img-top time">
+       </div> 
+       <div class="card-body">
+           <div class="card-mid row">
+                <div class="col-8 text-center temp">
+                    <span>50&deg;C</span>
+                </div>
+                <div class="col-4 condition-temp">
+                    <p>Thunder Storm</p>
+                    <p>36&deg;C</p>
+                    <p>30&deg;C</p>
+                </div>
+            </div>
+            <div class="icon-container shadow mix-auto">
+                <img src="" alt="cloud">
+            </div>
+            <div class="card-bottom px-5 row">
+                <div class="col text-center">
+                    <p>32&deg;</p>
+                    <span>Might rain</span>
+                </div>
+                <div class="col text-center">
+                    <p>46&deg;</p>
+                    <span>Humidity</span>
+                </div>
+            </div>
        </div>
    </div>
 </body>
-</html>
+</html> 

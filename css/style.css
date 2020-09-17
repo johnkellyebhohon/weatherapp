@@ -1,8 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;0,600;1,200;1,300&display=swap');
 body{
     font-family: 'Raleway', sans-serif;
+    margin:0;
+    padding:0;
 }
 
 .container{
     border:1px solid grey;
+    max-width: 400px;
+    min-width: 400px ;
+}
+.title{
+    font-weight: 700px;
+    font-size: 50px;;
+}
+.form-rounded{
+    border-radius:1.5em;
+}
+.main-card{
+    border-radius:1.5em !important;
+}
+.card-top{
+    position:absolute;
+    width:100%;
+}
+.card-top p{
+    font-size: 16pt;
+    weight: 400;
+}
+.card-top span{
+    font-weight: 400;
+    font-size: 36pt;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top:-60px;
+}
+
+.temp span{
+    font-size: 4.5em;
+    font-weight: 100;
+    letter-spacing: -5px;
+    white-space: nowrap;
+}
+.card-mid{
+    line-height: 0.5;
 }
