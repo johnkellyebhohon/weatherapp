@@ -26,7 +26,7 @@ body{
 }
 .card-top p{
     font-size: 16pt;
-    weight: 400;
+    font-weight: 400;
 }
 .card-top span{
     font-weight: 400;
@@ -34,6 +34,12 @@ body{
     font-family: 'Times New Roman', Times, serif;
     position: relative;
     top:-60px;
+}
+.main-card img{
+    /* background-image:url('https://www.freepik.com/free-vector/sky-background-video-conference-design_9188797.htm'); */
+    width:100%;
+    height:100px;
+    white-space: nowrap;
 }
 
 .temp span{
@@ -44,4 +50,58 @@ body{
 }
 .card-mid{
     line-height: 0.5;
+}
+.conditionA{
+    line-height: 1em;
+    font-weight: 600;
+    font-size: 1em;
+    text-transform: capitalize;
+}
+.highA::before{
+    background:url('');
+    width:10px;
+    height:14px;
+    display: inline-block;
+    position:relative;
+    top:3px;
+}
+.lowA::before{
+    background:url('');
+    width:10px;
+    height:15px;
+    display: inline-block;
+    position:relative;
+    top:3px;
+}
+.icon-container{
+    border-radius: 100%;
+    width:100px;
+    height:100px;
+    background:lightgrey;
+}
+.icon-container img{
+    margin:auto;
+}
+
+.card-bottom{
+    line-height: 0.5;
+}
+.card-bottom span{
+    font-size:12px;
+}
+.card-bottom p{
+    font-size: 40px;
+    font-weight: 90;
+    letter-spacing: -1;
+}
+.time-date{
+    font-size:30px;
+    font-weight: 150;
+    letter-spacing: 1;
+    position:relative;
+    top:30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border:none;
+    padding:0px 15px 0px 15px;
 }
